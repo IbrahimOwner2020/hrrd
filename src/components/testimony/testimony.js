@@ -51,7 +51,10 @@ const Div5 = styled.div`
     align-items: center;
     justify-content: center;
     position: relative;
-    overflow: hidden;
+
+    @media (max-width: 360px) {
+        overflow-x: hidden;
+    }
 `;
 
 const BackBlue = styled.div`
@@ -92,6 +95,9 @@ const Person = styled.span`
 
 const ImgPerson = styled.img`
     z-index: 50;
+    width: 100%;
+    width: 100%;
+    height: auto;
 `;
 
 const Circle1 = styled.img`

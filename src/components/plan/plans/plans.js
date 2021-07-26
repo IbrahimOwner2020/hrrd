@@ -9,7 +9,10 @@ const Div = styled.div`
     margin-top: 100px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+
+    @media (max-width: 882px) {
+        margin: 50px 16px;
+    }
 `;
 
 const H3 = styled.h3`

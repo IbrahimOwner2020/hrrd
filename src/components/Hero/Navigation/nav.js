@@ -106,10 +106,10 @@ const Nav = () => {
     return(
         <Div>
             <Wrapper show={register} closed={closeRegisterForm}>
-                <RegisterPop sign={closeRegiOpenSign}/>
+                <RegisterPop sign={closeRegiOpenSign} close={closeRegisterForm}/>
             </Wrapper> 
             <Wrapper show={signIn} closed={closeSignInForm}>
-                <SignInPop register={closeSignOpenRegi}/>
+                <SignInPop register={closeSignOpenRegi} close={closeSignInForm}/>
             </Wrapper> 
             <StyledLink to="/">
                 <Img src={logo} alt="company's logo" />

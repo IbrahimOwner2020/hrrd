@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import tick from '../../../../images/tick.svg';
 
 const Div = styled.div`
-    width: 235px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     box-sizing: border-box;
     padding: 20px;

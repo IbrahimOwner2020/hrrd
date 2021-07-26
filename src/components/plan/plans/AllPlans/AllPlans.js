@@ -84,10 +84,14 @@ const year = [
 
 const Div = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(235px, 1fr));
     grid-auto-rows: auto;
     grid-gap: 20px;
     margin: 50px 16px;
+
+    @media (max-width: 350px) {
+        grid-template-columns: 1fr;
+    }
 `;
 
 
